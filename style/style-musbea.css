@@ -1,5 +1,9 @@
 body {
-    background-color: #212121;
+    background-image: url('../images/background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .appname {
@@ -39,27 +43,6 @@ body {
 }
 
 .glass:hover {
-    margin-left: 30px;
-    margin-right: 30px;
-    padding: 16px;
-    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.4);
-}
-
-.glass-musbea {
-    background: rgb(219,26,128);
-background: linear-gradient(90deg, rgba(219,26,128,1) 0%, rgba(12,107,157,1) 35%, rgba(255,106,0,1) 100%);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(9.9px);
-    border: 1px solid rgba(255, 255, 255, 0.30);
-    margin-left: 80px;
-    margin-right: 80px;
-    padding: 8px;
-    transition: 0.4s;
-}
-
-.glass-musbea:hover {
     margin-left: 30px;
     margin-right: 30px;
     padding: 16px;
